@@ -1,1 +1,6 @@
 ### A stock price prediction model based on an LSTM recurrent neural network
+A recurrent neural network (RNN) is a type of artificial neural network which uses sequential data or time series data. They are distinguished by their “memory” as they take information from prior inputs to influence the current input and output. While traditional deep neural networks assume that inputs and outputs are independent of each other, the output of recurrent neural networks depend on the prior elements within the sequence.
+
+When we observe stock price-volume data, it is also a form of sequential/time series data. It is more than likely that the stock price on a given day will be influenced by the trends/patterns seen in the price on the preceding days. One can take advantage of deep learning techniques like RNNs to learn these patterns/trends in the data and make predictions on the stock price.
+
+LSTM (Long Short-Term Memory) is a type of RNN architecture which allows information to persist and can identify long-term dependencies. This type of network may be better suited for forecasting time series data such as stock prices as it can learn relatively long-term trends in the data and produce more accurate predictions on the future prices.
